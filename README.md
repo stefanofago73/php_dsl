@@ -19,7 +19,7 @@ The styles of realizations considered are:
 
 - Project under **Fago / Samples / Inheritance**: use of method chaining and inheritance (the importance of the docblock @static and the return static of PHP 8)
 
-- Project under **Fago / Samples / Array**: use of Template annotations, PSALM and PHPStan compatible, to have type inference
+- Project under **Fago / Samples / Arrays**: use of Template annotations, PSALM and PHPStan compatible, to have type inference
   on parameters and return type in an example of a nano DSL on arrays
 
 - Project under **Fago / Others /** : use of Closure and Template for the creation of **Loan** and **Execute Around** patterns

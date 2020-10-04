@@ -9,7 +9,7 @@ require dirname(__FILE__) . '/Person.php';
 class Sample
 {
 
-    public static function usage(): void
+    public static function Usage(): void
     {
         echo Person::Define()
                  ->WithName("John")
@@ -18,5 +18,5 @@ class Sample
     }
 }
 
-Sample::usage();
+Sample::Usage();
 
