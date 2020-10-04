@@ -1,5 +1,5 @@
 # php_dsl
-This repository hosts pure PHP code related to the study/experiment on different styles to get  domain specific languages ​​in PHP.
+This repository hosts pure PHP code related to the study/experiment on different styles to get **internal domain specific languages** ​​in PHP.
 
 ## What inside?
 The code, written with PHP 7.4.x, is organized into autonomous sub-projects, each with their own
