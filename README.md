@@ -7,7 +7,7 @@ main class which always has the same name: Sample.php
 
 The styles of realizations considered are:
 
-- Project under **Fago / Package/ **: use of namespaces and their aliases (+ global functions, static functions, constants)
+- Project under  **Fago / Package/ **: use of namespaces and their aliases (+ global functions, static functions, constants)
 
 - Project under **Fago / Samples / Form1**: use of functions as entry points but which instantiate initial contexts of the DSL elements (+ global functions, static functions, constants)
 
