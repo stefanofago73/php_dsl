@@ -22,7 +22,7 @@ The styles of realizations considered are:
 - Project under **Fago / Samples / Array**: use of Template annotations, PSALM and PHPStan compatible, to have type inference
   on parameters and return type in an example of a nano DSL on arrays
 
-- Project under **Fago / Others / **: use of Closure and Template for the creation of **Loan** and **Execute Around** patterns
+- Project under **Fago / Others /** : use of Closure and Template for the creation of **Loan** and **Execute Around** patterns
 
 - Project under **Fago / Samples / Builder**: example of **Builder Pattern** with interfaces and anonymous classes
 
