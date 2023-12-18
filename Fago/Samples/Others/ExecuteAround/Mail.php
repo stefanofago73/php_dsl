@@ -3,11 +3,12 @@ namespace Fago\Samples\Others\ExecuteAround;
 
 final class Mail
 {
-    private string $from;
-    private string $to;
-    private string $subject;
-    private string $body;
+    private ?string $from = null;
+    private ?string $to = null;
+    private ?string $subject = null;
+    private ?string $body = null;
     
+    function __construct(){}
     
     public function From(string $from):Mail
     {
