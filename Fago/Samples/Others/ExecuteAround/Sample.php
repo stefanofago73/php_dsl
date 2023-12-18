@@ -7,15 +7,15 @@ require dirname(__FILE__) . '/MailSender.php';
 
 class Sample
 {
-    public static final function Usage():void
+     public static final function Usage():void
     {
-        MailSender::Send(function(Mail $config):Mail{
-           return $config
+        MailSender::Send(fn(Mail $config):Mail
+            =>$config
                      ->From("john.black@kmail.com")
                      ->To("jack.white@jmail.com")
                      ->Subject("Test message from Netscape Communicator 4.7")
-                     ->Body("Hello World!");
-        });
+                     ->Body("Hello World!")
+        );
     }
 }
 
